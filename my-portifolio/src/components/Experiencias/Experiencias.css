@@ -1,0 +1,22 @@
+.cargo-info{
+    text-align: justify;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cargo-info-content {
+    
+    padding: 5px 50px;
+    width: 80%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+  }
+  
+  .cargo-info-content-description {
+    background-color: rgba(0, 0, 0, 0.493);
+    border-radius: 5px;
+  }
+    

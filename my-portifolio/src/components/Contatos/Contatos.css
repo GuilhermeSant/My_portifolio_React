@@ -1,0 +1,247 @@
+.contato{
+    margin: 40px 0;
+    font-size: 16px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .container {
+    justify-content: center;
+    margin-top: 130px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 0 0 10px white;
+  }
+  
+  #contato .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  .myPic{
+    border-radius: 15%;
+    border: solid 5px rgba(255, 255, 255, 0.678);
+    box-shadow: #fff 0 0 10px;
+    height: 12em;
+    margin: 0 20px;
+  }
+  
+  #contato ul {
+    list-style: none;
+    padding: 0;
+
+  }
+  
+  #contato li {
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  #contato i {
+    margin-right: 10px;
+    flex-shrink: 0; 
+  }
+
+  .contact-social {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+    .contact-social a {
+        transition: 0.3s ease-in-out;
+    }
+
+    .contact-social a:hover {
+        scale: 1.2;
+    }
+
+.contact-button {
+    z-index: 99;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+
+    background: none;
+    cursor: pointer;
+
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    
+    border: 1px solid #ccc;
+    border: solid 4px #fff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0 0 10px white;
+
+    transition: 0.5s ease-in-out;
+  }
+
+  .contact-button:hover {
+    background-color: #ffffff;
+    scale: 1.1;
+    color: rgb(0, 0, 0);
+  }
+
+  .hover-text {
+    position: absolute;
+    width: 80px;
+    padding: 5px 10px;
+    bottom: 80px;
+    right: -15px;
+    background-color: rgb(59, 81, 110);
+    color: #ffffff;
+    border-radius: 5px;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+  }
+
+  .contact-button:hover .hover-text {
+    opacity: 80%;
+}
+
+  .contact-button:active {
+    scale: 0.9;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn   0.3s ease-in-out;
+
+  }
+
+  .modal-overlay ::placeholder {
+    color: #aaa8a8;
+  }
+  
+  .modal {
+    background-image: url('../../img/background.svg');
+    border: solid 4px #fff;
+    box-shadow: 0 0 10px white;
+    border-radius: 10px;
+
+    width: 700px;
+    padding: 50px;
+    margin-top: 100px;
+    max-width: 90%;
+    position: relative;
+    animation: growUp  0.3s ease-in-out forwards;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgb(59, 81, 110);
+    color: #fff;
+    border: solid 3px #fff;
+    box-shadow: 0 0 10px white;
+    border-radius: 50px;
+    opacity: 80%;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    transition: 0.2s ease-in-out;
+  }
+
+  .close-button:hover {
+    opacity: 1;
+  }
+  
+  .close-button:active {
+    scale: 0.9;
+  }
+  
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  textarea {
+    text-align: justify; /* Adiciona esta linha */
+    white-space: pre-wrap; /* Adiciona esta linha */
+  }
+
+
+  .send-button {
+    background-color: rgb(59, 81, 110);
+    color: #fff;
+    border: solid 4px #fff;
+    box-shadow: 0 0 10px white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .send-button:hover {
+    background-color: #2b6adf;
+    scale: 1.1;
+    color: white;
+  }
+  
+  .send-button:active {
+    scale: 0.9;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes growUp {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  

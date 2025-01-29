@@ -8,6 +8,7 @@ body {
   scroll-behavior: smooth;
   background-image: url('../img/background.svg');
   background-size:cover;
+  animation: fadeIn 0.8s ease-in-out;
 }
 
 a {
@@ -38,6 +39,7 @@ a {
   background-color: #2b6adf;
   scale: 1.1;
   color: white;
+  animation: slideUp 0.5s ease-in-out;
 }
 
 .backToTop:active {
@@ -59,7 +61,6 @@ a {
 
 .accordion-header {
   cursor: pointer;
-  
 }
 
 .arrow{
@@ -79,19 +80,6 @@ a {
   opacity: 1;
 }
 
-/*Portfolio*/
-.container-projects{
-  display: flex;
-  margin: 50px;
-  text-align: justify;
-}
-
-.port-img{
-  margin: 0 20px;
-  height: 300px; 
-  width: 500px;
-  border-radius: 10%;
-}
 
 footer{
   background-image: url('../img/background-header.svg');

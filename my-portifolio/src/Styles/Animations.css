@@ -1,0 +1,40 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(-20%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes growUp {
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes slideUp {
+    0% {
+      transform: translateY(0%);
+    }
+    50% {
+       transform: translateY(-25%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+  }
+  

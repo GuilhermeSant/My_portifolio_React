@@ -1,0 +1,199 @@
+/* Estilos gerais */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  scroll-behavior: smooth;
+  background-image: url('../img/background.svg');
+  background-size:cover;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(59, 81, 110);
+  color: #fff;
+  border: solid 4px #fff;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+
+/* Botao de voltar ao topo */
+.backToTop:hover {
+  background-color: #2b6adf;
+  scale: 1.1;
+  color: white;
+}
+
+.backToTop:active {
+  scale: 0.9;
+}
+
+.backToTop.show {
+  opacity: 0.7;
+}   
+
+/* Acordeoes */
+
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px white;
+}
+
+.accordion-header {
+  cursor: pointer;
+  
+}
+
+.arrow{
+  margin-right: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.accordion-content {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.accordion-content.expanded {
+  max-height: 100%;
+  opacity: 1;
+}
+
+/*Portfolio*/
+.container-projects{
+  display: flex;
+  margin: 50px;
+  text-align: justify;
+}
+
+.port-img{
+  margin: 0 20px;
+  height: 300px; 
+  width: 500px;
+  border-radius: 10%;
+}
+
+footer{
+  background-image: url('../img/background-header.svg');
+  border-top: 1px solid #ccc;
+  border-radius: 20px 20px 0 0;
+  margin-top: 40px;
+  box-shadow: 0 0 10px white;
+  text-align: center;
+
+
+}
+
+.footer-item{
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center; /* Centraliza os itens verticalmente */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-port{
+  padding: 0 10%;
+
+}
+
+.footer-port img{
+  height: 80px;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 20px;
+  }
+
+  nav ul {
+      display: none;
+  }
+
+  .container-projects {
+      flex-direction: column;
+      margin: 20px;
+  }
+
+  .port-img {
+      width: 100%;
+      height: auto;
+      margin: 10px 0;
+  }
+
+  #contato .container {
+      flex-direction: column;
+  }
+
+  .myPic {
+      margin: 0 0 20px 0;
+  }
+
+  .cargo-info{
+      text-align: justify;
+      word-spacing: -2px;
+
+  }
+
+  .cargo-info li{
+      margin-bottom: 12px;
+  }
+
+  #backToTop{
+      display: none;
+  }
+
+}
+
+@media (max-width: 480px) {
+  header h1 {
+      font-size: 25px;
+  }
+
+  nav a {
+      padding: 10px;
+      font-size: 14px;
+  }
+
+  section {
+      padding: 10px;
+  }
+
+  .container {
+      padding: 10px;
+  }
+
+  .footer-item{
+      margin: 0 2em;
+  }
+}
+
+@media (hover: none) {
+  nav a:hover {
+      transform: none;
+  }
+  main h2:hover{
+      transform: none;
+  }
+}

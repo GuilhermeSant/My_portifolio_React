@@ -1,0 +1,66 @@
+/* Cabeçalho fixo */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to bottom right, #000000, #0d1b2a); /* Fundo suave escuro */
+    background-image: url('../../img/background-header.svg');
+    background-size: cover;
+    background-position-y: 900px;
+    border-radius: 10px;
+    box-shadow: #ffffff 0 0 10px;
+    padding: 10px 0 20px;
+    text-align: center;
+    z-index: 1000;
+    overflow: hidden;
+  }
+  
+  header h1 {
+    font-size: 40px;
+    transition: transform 0.2s ease-in-out;
+    text-shadow: 0 5px 10px white;
+    user-select: none;
+  }
+
+    
+  header h1:hover {
+    transform: scale(1.1);
+  }
+  
+  header h1:active {
+    
+    transform: rotateX(180deg);
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: transform 0.1s, background-color 0.3s;
+  }
+  
+  nav li:hover {
+    transform: scale(1.1);
+    border: 0 solid white;
+    border-radius: 10px;
+    background-color: #163352;
+    box-shadow: white 0 0 10px;
+  }
+  
+  nav li:active {
+    transform: scale(0.9);
+  }
+  

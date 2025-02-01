@@ -20,3 +20,32 @@
     border-radius: 5px;
   }
     
+
+
+/* Ajustes para tablets (largura máxima de 768px) */
+@media (max-width: 768px) {
+  .cargo-info-content {
+      width: 90%;
+      padding: 10px 30px;
+  }
+}
+
+/* Ajustes para celulares (largura máxima de 480px) */
+@media (max-width: 480px) {
+
+  .cargo-info {
+    width: 50%;
+  }
+
+  .cargo-info-content {
+    margin-left: 70px;
+      width: 70vw;
+      padding: 10px;
+      box-shadow: 0 0 5px white; /* Reduz a intensidade da sombra */
+    }
+
+  .cargo-info-content-description {
+      font-size: 14px; /* Reduz o tamanho da fonte para melhor leitura */
+      padding: 5px; /* Ajuste de espaçamento */
+  }
+}

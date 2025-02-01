@@ -20,7 +20,7 @@ export const Experiencias = () => {
             adaptação e trabalho independente.
           </p>
           <p>
-            Habilidades adicionais: Comunicação clara e objetiva. Proatividade e
+            Habilidades adicionais: <br /><br />Comunicação clara e objetiva. Proatividade e
             iniciativa. Aprendizado rápido e adaptabilidade. Trabalho em equipe
             e independência.
           </p>
@@ -64,7 +64,7 @@ export const Experiencias = () => {
           </p>
 
           <p>
-            Habilidades adicionais: Conhecimento profundo das necessidades e
+            Habilidades adicionais: <br /><br />Conhecimento profundo das necessidades e
             demandas do setor público. Habilidade em comunicação interpessoal e
             trabalho em equipe. Proatividade e iniciativa na busca por soluções
             e na identificação de oportunidades de melhorias. Experiência com

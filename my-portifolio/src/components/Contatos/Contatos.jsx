@@ -84,11 +84,12 @@ export const Contatos = () => {
           </li>
         </ul>
       </div>
-
+      <div className="contact-container">
+      <span className="hover-text">Entre em contato !!!</span>
       <button className="contact-button" onClick={toggleModal}>
         Contato
-        <span className="hover-text">Entre em contato !!!</span>
       </button>
+      </div>
 
       {isModalOpen && (
         <div className="modal-overlay" onClick={toggleModal}>

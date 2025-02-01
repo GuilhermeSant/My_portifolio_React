@@ -37,4 +37,29 @@
         transform: translateY(0%);
     }
   }
+
+  @keyframes glow {
+    0% {
+        box-shadow: 0 0 5px #fff;
+    }
+    50% {
+        box-shadow: 0 0 20px #6200ff, 0 0 30px #3700ff, 0 0 40px #1b0177, 0 0 50px #ff00ff;
+    }
+    100% {
+        box-shadow: 0 0 5px #fff;
+    }
+}
+  
+@keyframes glowBlue {
+  0% {
+      box-shadow: 0 0 5px #fff;
+  }
+  50% {
+      box-shadow: 0 0 20px #000cb9 0 0 30px #006eff, 0 0 40px #0081fa, 0 0 50px #00eeff;
+  }
+  100% {
+      box-shadow: 0 0 5px #fff;
+  }
+}
+
   

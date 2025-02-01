@@ -1,3 +1,5 @@
+@import '../../Styles/Animations.css';
+
 /* Cabeçalho fixo */
 header {
     position: fixed;
@@ -28,8 +30,7 @@ header {
   }
   
   header h1:active {
-    
-    transform: rotateX(180deg);
+    transform: scale(0.9);
   }
   
   nav ul {
@@ -63,4 +64,97 @@ header {
   nav li:active {
     transform: scale(0.9);
   }
-  
+
+  /* Botão de menu hambúrguer */
+.hamburger {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+/* Menu de navegação */
+.nav-menu {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  /* Estilos para tablets */
+  header {
+    padding: 8px 0 16px;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos para celulares */
+  header {
+    padding: 80px 0 12px;
+  }
+
+  header h1 {
+    margin: -70px;
+  }
+
+  .hamburger {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .nav-menu {
+    display: none;
+    top: 10px;
+    right: 0;
+    width: 600px;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: row;
+    align-items: center;
+
+    border-radius: 10px;
+
+  }
+
+  .nav-menu.open {
+    display: flex;
+  }
+
+  .nav-menu ul {
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    gap: 5px;
+
+    margin-top: 110px;
+    text-align: center;
+    animation: slideIn 0.5s ease-in-out;
+
+  }
+
+  .nav-menu li {
+    border: 0 solid white;
+    border-radius: 10px;
+    box-shadow: white 0 0 10px;
+    margin: 5px 0;
+    height: 20px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+  }
+
+}

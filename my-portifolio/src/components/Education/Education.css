@@ -61,3 +61,46 @@ p {
 .education-info-diploma :hover {
   transform: scale(1.1);
 }
+
+
+/* Ajustes para tablets (largura máxima de 768px) */
+@media (max-width: 768px) {
+  .education {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .education-info {
+      width: 60%;
+      padding: 15px 30px;
+  }
+
+  .education-info-content {
+      flex-direction: column; /* Alinha os conteúdos em coluna para melhor disposição */
+      gap: 10px;
+  }
+}
+
+/* Ajustes para celulares (largura máxima de 480px) */
+@media (max-width: 480px) {
+  .education-info {
+      width: 90%;
+      padding: 15px 20px;
+  }
+
+  .education-info-content {
+      box-shadow: 0 0 5px white; /* Redução da sombra para evitar poluição visual */
+      padding: 10px;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .education-info-diploma {
+      margin-bottom: 10px;
+  }
+
+  .education-info-logo {
+      width: 100px; /* Faz com que o logo se ajuste melhor no espaço disponível */
+      height: 100px;
+  }
+}

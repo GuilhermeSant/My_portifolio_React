@@ -1,21 +1,32 @@
 {
   "files": {
-    "main.css": "/My_portifolio_React/static/css/main.5ce8c559.css",
-    "main.js": "/My_portifolio_React/static/js/main.daa369dc.js",
+    "main.css": "/My_portifolio_React/static/css/main.769a3888.css",
+    "main.js": "/My_portifolio_React/static/js/main.04f115d1.js",
     "static/js/156.dad2d199.chunk.js": "/My_portifolio_React/static/js/156.dad2d199.chunk.js",
+    "static/media/spacedestroy.gif": "/My_portifolio_React/static/media/spacedestroy.2786066c02c0d40126d7.gif",
+    "static/media/ThePlotTwist.gif": "/My_portifolio_React/static/media/ThePlotTwist.86b2c70ba57ca0d8b3cb.gif",
+    "static/media/space2d.gif": "/My_portifolio_React/static/media/space2d.9f44577273d2e3b71798.gif",
+    "static/media/met.png": "/My_portifolio_React/static/media/met.7d0a552d404776c88a7d.png",
     "static/media/jane_doe.png": "/My_portifolio_React/static/media/jane_doe.c1ef433b955de625efe6.png",
     "static/media/netflix-clone.png": "/My_portifolio_React/static/media/netflix-clone.537088e6a23cbf6eca6d.png",
     "static/media/disney-clone.png": "/My_portifolio_React/static/media/disney-clone.533ca5bc0a752a09d000.png",
+    "static/media/movies-list.png": "/My_portifolio_React/static/media/movies-list.d93f9bba958dfae4d1d7.png",
+    "static/media/2048JSgame.png": "/My_portifolio_React/static/media/2048JSgame.d56ae103e3f2f920c3c8.png",
     "static/media/Me.jpg": "/My_portifolio_React/static/media/Me.81910abb49ccc80b5355.jpg",
+    "static/media/react_list_todos.png": "/My_portifolio_React/static/media/react_list_todos.e580306fa5dd4878548e.png",
+    "static/media/calendar.png": "/My_portifolio_React/static/media/calendar.08df04411b00aa2501f3.png",
+    "static/media/plot-twist.webp": "/My_portifolio_React/static/media/plot-twist.81174d2a82b5e4fda729.webp",
+    "static/media/spacegame.webp": "/My_portifolio_React/static/media/spacegame.8d226df36a42c3912d82.webp",
+    "static/media/space2d.webp": "/My_portifolio_React/static/media/space2d.df2754d5e4b3ded8611a.webp",
     "static/media/background.svg": "/My_portifolio_React/static/media/background.12ace6512665d67799fc.svg",
     "static/media/background-header.svg": "/My_portifolio_React/static/media/background-header.18d032dbbd0bcb8e1d3e.svg",
     "index.html": "/My_portifolio_React/index.html",
-    "main.5ce8c559.css.map": "/My_portifolio_React/static/css/main.5ce8c559.css.map",
-    "main.daa369dc.js.map": "/My_portifolio_React/static/js/main.daa369dc.js.map",
+    "main.769a3888.css.map": "/My_portifolio_React/static/css/main.769a3888.css.map",
+    "main.04f115d1.js.map": "/My_portifolio_React/static/js/main.04f115d1.js.map",
     "156.dad2d199.chunk.js.map": "/My_portifolio_React/static/js/156.dad2d199.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ce8c559.css",
-    "static/js/main.daa369dc.js"
+    "static/css/main.769a3888.css",
+    "static/js/main.04f115d1.js"
   ]
 }
